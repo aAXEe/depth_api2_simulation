@@ -1,0 +1,9 @@
+This project is a simulation for the API V2 of depth.openseamap.org.
+It provides static files instead of real (dynamic) data. It can be used to develop the webfrontend.
+
+Note: To use this you must change the oseam.js: 
+* change the variable apiUrl to your server url 
+* disable the credentials for the requests:
+            options.xhrFields   = {
+                withCredentials: false
+            };
